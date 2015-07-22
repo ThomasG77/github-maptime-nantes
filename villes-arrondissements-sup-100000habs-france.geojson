@@ -1,53 +1,885 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "NOM_COM": "TOULOUSE", "STATUT": "Préfecture de région", "SUPERFICIE": 11809, "POPULATION": 447340, "latitude": 43.604268, "longitude": 1.441019, "result_label": "Toulouse" }, "geometry": { "type": "Point", "coordinates": [ 1.441019, 43.604268 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "NICE", "STATUT": "Préfecture de département", "SUPERFICIE": 7392, "POPULATION": 344064, "latitude": 43.701875, "longitude": 7.267464, "result_label": "Nice" }, "geometry": { "type": "Point", "coordinates": [ 7.267464, 43.701875 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "NANTES", "STATUT": "Préfecture de région", "SUPERFICIE": 6578, "POPULATION": 287845, "latitude": 47.216354, "longitude": -1.554456, "result_label": "Nantes" }, "geometry": { "type": "Point", "coordinates": [ -1.554456, 47.216354 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "STRASBOURG", "STATUT": "Préfecture de région", "SUPERFICIE": 7810, "POPULATION": 272222, "latitude": 48.583530, "longitude": 7.746735, "result_label": "Strasbourg" }, "geometry": { "type": "Point", "coordinates": [ 7.746735, 48.58353 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "MONTPELLIER", "STATUT": "Préfecture de région", "SUPERFICIE": 5712, "POPULATION": 264538, "latitude": 43.611024, "longitude": 3.875521, "result_label": "Montpellier" }, "geometry": { "type": "Point", "coordinates": [ 3.875521, 43.611024 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "BORDEAUX", "STATUT": "Préfecture de région", "SUPERFICIE": 4970, "POPULATION": 239399, "latitude": 44.837663, "longitude": -0.579717, "result_label": "Bordeaux" }, "geometry": { "type": "Point", "coordinates": [ -0.579717, 44.837663 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "PARIS-15E-ARRONDISSEMENT", "STATUT": "Commune simple", "SUPERFICIE": 846, "POPULATION": 238395, "latitude": 48.840698, "longitude": 2.299681, "result_label": "15e Arrondissement" }, "geometry": { "type": "Point", "coordinates": [ 2.299681, 48.840698 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "LILLE", "STATUT": "Préfecture de région", "SUPERFICIE": 3499, "POPULATION": 227533, "latitude": 50.631564, "longitude": 3.056440, "result_label": "Lille" }, "geometry": { "type": "Point", "coordinates": [ 3.05644, 50.631564 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "RENNES", "STATUT": "Préfecture de région", "SUPERFICIE": 5036, "POPULATION": 208033, "latitude": 48.113844, "longitude": -1.681632, "result_label": "Rennes" }, "geometry": { "type": "Point", "coordinates": [ -1.681632, 48.113844 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "PARIS-18E-ARRONDISSEMENT", "STATUT": "Commune simple", "SUPERFICIE": 604, "POPULATION": 203127, "latitude": 48.891312, "longitude": 2.344008, "result_label": "18e Arrondissement" }, "geometry": { "type": "Point", "coordinates": [ 2.344008, 48.891312 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "PARIS-20E-ARRONDISSEMENT", "STATUT": "Commune simple", "SUPERFICIE": 597, "POPULATION": 198042, "latitude": 48.864621, "longitude": 2.398869, "result_label": "20e Arrondissement" }, "geometry": { "type": "Point", "coordinates": [ 2.398869, 48.864621 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "PARIS-19E-ARRONDISSEMENT", "STATUT": "Commune simple", "SUPERFICIE": 675, "POPULATION": 186090, "latitude": 48.882516, "longitude": 2.380936, "result_label": "19e Arrondissement" }, "geometry": { "type": "Point", "coordinates": [ 2.380936, 48.882516 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "PARIS-13E-ARRONDISSEMENT", "STATUT": "Commune simple", "SUPERFICIE": 714, "POPULATION": 183260, "latitude": 48.832011, "longitude": 2.354290, "result_label": "13e Arrondissement" }, "geometry": { "type": "Point", "coordinates": [ 2.35429, 48.832011 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "REIMS", "STATUT": "Sous-préfecture", "SUPERFICIE": 4693, "POPULATION": 180752, "latitude": 49.264571, "longitude": 4.027514, "result_label": "Reims" }, "geometry": { "type": "Point", "coordinates": [ 4.027514, 49.264571 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "LE HAVRE", "STATUT": "Sous-préfecture", "SUPERFICIE": 5739, "POPULATION": 174156, "latitude": 49.493304, "longitude": 0.107396, "result_label": "Le Havre" }, "geometry": { "type": "Point", "coordinates": [ 0.107396, 49.493304 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "PARIS-17E-ARRONDISSEMENT", "STATUT": "Commune simple", "SUPERFICIE": 564, "POPULATION": 170174, "latitude": 48.883989, "longitude": 2.320918, "result_label": "17e Arrondissement" }, "geometry": { "type": "Point", "coordinates": [ 2.320918, 48.883989 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "SAINT-ETIENNE", "STATUT": "Préfecture de département", "SUPERFICIE": 7996, "POPULATION": 170049, "latitude": 45.433335, "longitude": 4.388998, "result_label": "Saint-Étienne" }, "geometry": { "type": "Point", "coordinates": [ 4.388998, 45.433335 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "PARIS-16E-ARRONDISSEMENT", "STATUT": "Commune simple", "SUPERFICIE": 1641, "POPULATION": 169942, "latitude": 48.863042, "longitude": 2.276208, "result_label": "16e Arrondissement" }, "geometry": { "type": "Point", "coordinates": [ 2.276208, 48.863042 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "TOULON", "STATUT": "Préfecture de département", "SUPERFICIE": 4419, "POPULATION": 163974, "latitude": 43.124011, "longitude": 5.930466, "result_label": "Toulon" }, "geometry": { "type": "Point", "coordinates": [ 5.930466, 43.124011 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "GRENOBLE", "STATUT": "Préfecture de département", "SUPERFICIE": 1854, "POPULATION": 157424, "latitude": 45.186270, "longitude": 5.725358, "result_label": "Grenoble" }, "geometry": { "type": "Point", "coordinates": [ 5.725358, 45.18627 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "PARIS-11E-ARRONDISSEMENT", "STATUT": "Commune simple", "SUPERFICIE": 366, "POPULATION": 154647, "latitude": 48.858221, "longitude": 2.378499, "result_label": "11e Arrondissement" }, "geometry": { "type": "Point", "coordinates": [ 2.378499, 48.858221 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "DIJON", "STATUT": "Préfecture de région", "SUPERFICIE": 4160, "POPULATION": 151672, "latitude": 47.322982, "longitude": 5.041742, "result_label": "Dijon" }, "geometry": { "type": "Point", "coordinates": [ 5.041742, 47.322982 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "ANGERS", "STATUT": "Préfecture de département", "SUPERFICIE": 4433, "POPULATION": 148803, "latitude": 47.472070, "longitude": -0.556585, "result_label": "Angers" }, "geometry": { "type": "Point", "coordinates": [ -0.556585, 47.47207 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "VILLEURBANNE", "STATUT": "Chef-lieu de canton", "SUPERFICIE": 1486, "POPULATION": 145034, "latitude": 45.765775, "longitude": 4.878659, "result_label": "Villeurbanne" }, "geometry": { "type": "Point", "coordinates": [ 4.878659, 45.765775 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "NIMES", "STATUT": "Préfecture de département", "SUPERFICIE": 16119, "POPULATION": 144940, "latitude": 43.836447, "longitude": 4.358905, "result_label": "Nîmes" }, "geometry": { "type": "Point", "coordinates": [ 4.358905, 43.836447 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "PARIS-12E-ARRONDISSEMENT", "STATUT": "Commune simple", "SUPERFICIE": 1637, "POPULATION": 144402, "latitude": 48.840277, "longitude": 2.386887, "result_label": "12e Arrondissement" }, "geometry": { "type": "Point", "coordinates": [ 2.386887, 48.840277 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "LE MANS", "STATUT": "Préfecture de département", "SUPERFICIE": 5261, "POPULATION": 143240, "latitude": 48.003264, "longitude": 0.195522, "result_label": "Le Mans" }, "geometry": { "type": "Point", "coordinates": [ 0.195522, 48.003264 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "CLERMONT-FERRAND", "STATUT": "Préfecture de région", "SUPERFICIE": 4307, "POPULATION": 140957, "latitude": 45.779582, "longitude": 3.086226, "result_label": "Clermont-Ferrand" }, "geometry": { "type": "Point", "coordinates": [ 3.086226, 45.779582 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "AIX-EN-PROVENCE", "STATUT": "Sous-préfecture", "SUPERFICIE": 18759, "POPULATION": 140684, "latitude": 43.527626, "longitude": 5.445025, "result_label": "Aix-en-Provence" }, "geometry": { "type": "Point", "coordinates": [ 5.445025, 43.527626 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "BREST", "STATUT": "Sous-préfecture", "SUPERFICIE": 4912, "POPULATION": 140547, "latitude": 48.389729, "longitude": -4.487808, "result_label": "Brest" }, "geometry": { "type": "Point", "coordinates": [ -4.487808, 48.389729 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "PARIS-14E-ARRONDISSEMENT", "STATUT": "Commune simple", "SUPERFICIE": 561, "POPULATION": 140317, "latitude": 48.832753, "longitude": 2.325672, "result_label": "14e Arrondissement" }, "geometry": { "type": "Point", "coordinates": [ 2.325672, 48.832753 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "LIMOGES", "STATUT": "Préfecture de région", "SUPERFICIE": 7971, "POPULATION": 137758, "latitude": 45.833763, "longitude": 1.260768, "result_label": "Limoges" }, "geometry": { "type": "Point", "coordinates": [ 1.260768, 45.833763 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "TOURS", "STATUT": "Préfecture de département", "SUPERFICIE": 3336, "POPULATION": 134633, "latitude": 47.391759, "longitude": 0.687758, "result_label": "Tours" }, "geometry": { "type": "Point", "coordinates": [ 0.687758, 47.391759 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "AMIENS", "STATUT": "Préfecture de région", "SUPERFICIE": 5009, "POPULATION": 133327, "latitude": 49.891485, "longitude": 2.296389, "result_label": "Amiens" }, "geometry": { "type": "Point", "coordinates": [ 2.296389, 49.891485 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "METZ", "STATUT": "Préfecture de région", "SUPERFICIE": 4171, "POPULATION": 119962, "latitude": 49.119146, "longitude": 6.176026, "result_label": "Metz" }, "geometry": { "type": "Point", "coordinates": [ 6.176026, 49.119146 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "PERPIGNAN", "STATUT": "Préfecture de département", "SUPERFICIE": 6831, "POPULATION": 118238, "latitude": 42.697055, "longitude": 2.893955, "result_label": "Perpignan" }, "geometry": { "type": "Point", "coordinates": [ 2.893955, 42.697055 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "BOULOGNE-BILLANCOURT", "STATUT": "Sous-préfecture", "SUPERFICIE": 615, "POPULATION": 116220, "latitude": 48.834945, "longitude": 2.241177, "result_label": "Boulogne-Billancourt" }, "geometry": { "type": "Point", "coordinates": [ 2.241177, 48.834945 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "BESANCON", "STATUT": "Préfecture de région", "SUPERFICIE": 6510, "POPULATION": 115879, "latitude": 47.242188, "longitude": 6.020070, "result_label": "Besançon" }, "geometry": { "type": "Point", "coordinates": [ 6.02007, 47.242188 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "ORLEANS", "STATUT": "Préfecture de région", "SUPERFICIE": 2759, "POPULATION": 114185, "latitude": 47.901977, "longitude": 1.903836, "result_label": "Orléans" }, "geometry": { "type": "Point", "coordinates": [ 1.903836, 47.901977 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "ROUEN", "STATUT": "Préfecture de région", "SUPERFICIE": 2142, "POPULATION": 111553, "latitude": 49.442832, "longitude": 1.101763, "result_label": "Rouen" }, "geometry": { "type": "Point", "coordinates": [ 1.101763, 49.442832 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "MULHOUSE", "STATUT": "Sous-préfecture", "SUPERFICIE": 2238, "POPULATION": 110351, "latitude": 47.748451, "longitude": 7.338023, "result_label": "Mulhouse" }, "geometry": { "type": "Point", "coordinates": [ 7.338023, 47.748451 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "CAEN", "STATUT": "Préfecture de région", "SUPERFICIE": 2573, "POPULATION": 108793, "latitude": 49.181339, "longitude": -0.370637, "result_label": "Caen" }, "geometry": { "type": "Point", "coordinates": [ -0.370637, 49.181339 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "SAINT-DENIS", "STATUT": "Sous-préfecture", "SUPERFICIE": 1238, "POPULATION": 107762, "latitude": 48.935427, "longitude": 2.353006, "result_label": "Saint-Denis" }, "geometry": { "type": "Point", "coordinates": [ 2.353006, 48.935427 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "NANCY", "STATUT": "Préfecture de département", "SUPERFICIE": 1494, "POPULATION": 105382, "latitude": 48.692365, "longitude": 6.182711, "result_label": "Nancy" }, "geometry": { "type": "Point", "coordinates": [ 6.182711, 48.692365 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "ARGENTEUIL", "STATUT": "Sous-préfecture", "SUPERFICIE": 1739, "POPULATION": 104282, "latitude": 48.947394, "longitude": 2.246363, "result_label": "Argenteuil" }, "geometry": { "type": "Point", "coordinates": [ 2.246363, 48.947394 ] } },
-{ "type": "Feature", "properties": { "NOM_COM": "MONTREUIL", "STATUT": "Chef-lieu de canton", "SUPERFICIE": 890, "POPULATION": 103068, "latitude": 48.859436, "longitude": 2.442545, "result_label": "Montreuil" }, "geometry": { "type": "Point", "coordinates": [ 2.442545, 48.859436 ] } }
-]
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "TOULOUSE",
+        "STATUT": "Préfecture de région",
+        "SUPERFICIE": 11809,
+        "POPULATION": 447340,
+        "latitude": 43.604268,
+        "longitude": 1.441019,
+        "result_label": "Toulouse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.441019,
+          43.604268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "NICE",
+        "STATUT": "Préfecture de département",
+        "SUPERFICIE": 7392,
+        "POPULATION": 344064,
+        "latitude": 43.701875,
+        "longitude": 7.267464,
+        "result_label": "Nice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.267464,
+          43.701875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "NANTES",
+        "STATUT": "Préfecture de région",
+        "SUPERFICIE": 6578,
+        "POPULATION": 287845,
+        "latitude": 47.216354,
+        "longitude": -1.554456,
+        "result_label": "Nantes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.554456,
+          47.216354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "STRASBOURG",
+        "STATUT": "Préfecture de région",
+        "SUPERFICIE": 7810,
+        "POPULATION": 272222,
+        "latitude": 48.58353,
+        "longitude": 7.746735,
+        "result_label": "Strasbourg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.746735,
+          48.58353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "MONTPELLIER",
+        "STATUT": "Préfecture de région",
+        "SUPERFICIE": 5712,
+        "POPULATION": 264538,
+        "latitude": 43.611024,
+        "longitude": 3.875521,
+        "result_label": "Montpellier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.875521,
+          43.611024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "BORDEAUX",
+        "STATUT": "Préfecture de région",
+        "SUPERFICIE": 4970,
+        "POPULATION": 239399,
+        "latitude": 44.837663,
+        "longitude": -0.579717,
+        "result_label": "Bordeaux"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.579717,
+          44.837663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "PARIS-15E-ARRONDISSEMENT",
+        "STATUT": "Commune simple",
+        "SUPERFICIE": 846,
+        "POPULATION": 238395,
+        "latitude": 48.840698,
+        "longitude": 2.299681,
+        "result_label": "15e Arrondissement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.299681,
+          48.840698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "LILLE",
+        "STATUT": "Préfecture de région",
+        "SUPERFICIE": 3499,
+        "POPULATION": 227533,
+        "latitude": 50.631564,
+        "longitude": 3.05644,
+        "result_label": "Lille"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.05644,
+          50.631564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "RENNES",
+        "STATUT": "Préfecture de région",
+        "SUPERFICIE": 5036,
+        "POPULATION": 208033,
+        "latitude": 48.113844,
+        "longitude": -1.681632,
+        "result_label": "Rennes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.681632,
+          48.113844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "PARIS-18E-ARRONDISSEMENT",
+        "STATUT": "Commune simple",
+        "SUPERFICIE": 604,
+        "POPULATION": 203127,
+        "latitude": 48.891312,
+        "longitude": 2.344008,
+        "result_label": "18e Arrondissement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.344008,
+          48.891312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "PARIS-20E-ARRONDISSEMENT",
+        "STATUT": "Commune simple",
+        "SUPERFICIE": 597,
+        "POPULATION": 198042,
+        "latitude": 48.864621,
+        "longitude": 2.398869,
+        "result_label": "20e Arrondissement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.398869,
+          48.864621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "PARIS-19E-ARRONDISSEMENT",
+        "STATUT": "Commune simple",
+        "SUPERFICIE": 675,
+        "POPULATION": 186090,
+        "latitude": 48.882516,
+        "longitude": 2.380936,
+        "result_label": "19e Arrondissement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.380936,
+          48.882516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "PARIS-13E-ARRONDISSEMENT",
+        "STATUT": "Commune simple",
+        "SUPERFICIE": 714,
+        "POPULATION": 183260,
+        "latitude": 48.832011,
+        "longitude": 2.35429,
+        "result_label": "13e Arrondissement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.35429,
+          48.832011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "REIMS",
+        "STATUT": "Sous-préfecture",
+        "SUPERFICIE": 4693,
+        "POPULATION": 180752,
+        "latitude": 49.264571,
+        "longitude": 4.027514,
+        "result_label": "Reims"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.027514,
+          49.264571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "LE HAVRE",
+        "STATUT": "Sous-préfecture",
+        "SUPERFICIE": 5739,
+        "POPULATION": 174156,
+        "latitude": 49.493304,
+        "longitude": 0.107396,
+        "result_label": "Le Havre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.107396,
+          49.493304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "PARIS-17E-ARRONDISSEMENT",
+        "STATUT": "Commune simple",
+        "SUPERFICIE": 564,
+        "POPULATION": 170174,
+        "latitude": 48.883989,
+        "longitude": 2.320918,
+        "result_label": "17e Arrondissement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.320918,
+          48.883989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "SAINT-ETIENNE",
+        "STATUT": "Préfecture de département",
+        "SUPERFICIE": 7996,
+        "POPULATION": 170049,
+        "latitude": 45.433335,
+        "longitude": 4.388998,
+        "result_label": "Saint-Étienne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.388998,
+          45.433335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "PARIS-16E-ARRONDISSEMENT",
+        "STATUT": "Commune simple",
+        "SUPERFICIE": 1641,
+        "POPULATION": 169942,
+        "latitude": 48.863042,
+        "longitude": 2.276208,
+        "result_label": "16e Arrondissement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.276208,
+          48.863042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "TOULON",
+        "STATUT": "Préfecture de département",
+        "SUPERFICIE": 4419,
+        "POPULATION": 163974,
+        "latitude": 43.124011,
+        "longitude": 5.930466,
+        "result_label": "Toulon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.930466,
+          43.124011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "GRENOBLE",
+        "STATUT": "Préfecture de département",
+        "SUPERFICIE": 1854,
+        "POPULATION": 157424,
+        "latitude": 45.18627,
+        "longitude": 5.725358,
+        "result_label": "Grenoble"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.725358,
+          45.18627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "PARIS-11E-ARRONDISSEMENT",
+        "STATUT": "Commune simple",
+        "SUPERFICIE": 366,
+        "POPULATION": 154647,
+        "latitude": 48.858221,
+        "longitude": 2.378499,
+        "result_label": "11e Arrondissement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.378499,
+          48.858221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "DIJON",
+        "STATUT": "Préfecture de région",
+        "SUPERFICIE": 4160,
+        "POPULATION": 151672,
+        "latitude": 47.322982,
+        "longitude": 5.041742,
+        "result_label": "Dijon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.041742,
+          47.322982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "ANGERS",
+        "STATUT": "Préfecture de département",
+        "SUPERFICIE": 4433,
+        "POPULATION": 148803,
+        "latitude": 47.47207,
+        "longitude": -0.556585,
+        "result_label": "Angers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.556585,
+          47.47207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "VILLEURBANNE",
+        "STATUT": "Chef-lieu de canton",
+        "SUPERFICIE": 1486,
+        "POPULATION": 145034,
+        "latitude": 45.765775,
+        "longitude": 4.878659,
+        "result_label": "Villeurbanne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.878659,
+          45.765775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "NIMES",
+        "STATUT": "Préfecture de département",
+        "SUPERFICIE": 16119,
+        "POPULATION": 144940,
+        "latitude": 43.836447,
+        "longitude": 4.358905,
+        "result_label": "Nîmes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.358905,
+          43.836447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "PARIS-12E-ARRONDISSEMENT",
+        "STATUT": "Commune simple",
+        "SUPERFICIE": 1637,
+        "POPULATION": 144402,
+        "latitude": 48.840277,
+        "longitude": 2.386887,
+        "result_label": "12e Arrondissement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.386887,
+          48.840277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "LE MANS",
+        "STATUT": "Préfecture de département",
+        "SUPERFICIE": 5261,
+        "POPULATION": 143240,
+        "latitude": 48.003264,
+        "longitude": 0.195522,
+        "result_label": "Le Mans"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.195522,
+          48.003264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "CLERMONT-FERRAND",
+        "STATUT": "Préfecture de région",
+        "SUPERFICIE": 4307,
+        "POPULATION": 140957,
+        "latitude": 45.779582,
+        "longitude": 3.086226,
+        "result_label": "Clermont-Ferrand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.086226,
+          45.779582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "AIX-EN-PROVENCE",
+        "STATUT": "Sous-préfecture",
+        "SUPERFICIE": 18759,
+        "POPULATION": 140684,
+        "latitude": 43.527626,
+        "longitude": 5.445025,
+        "result_label": "Aix-en-Provence"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.445025,
+          43.527626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "BREST",
+        "STATUT": "Sous-préfecture",
+        "SUPERFICIE": 4912,
+        "POPULATION": 140547,
+        "latitude": 48.389729,
+        "longitude": -4.487808,
+        "result_label": "Brest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.487808,
+          48.389729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "PARIS-14E-ARRONDISSEMENT",
+        "STATUT": "Commune simple",
+        "SUPERFICIE": 561,
+        "POPULATION": 140317,
+        "latitude": 48.832753,
+        "longitude": 2.325672,
+        "result_label": "14e Arrondissement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.325672,
+          48.832753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "LIMOGES",
+        "STATUT": "Préfecture de région",
+        "SUPERFICIE": 7971,
+        "POPULATION": 137758,
+        "latitude": 45.833763,
+        "longitude": 1.260768,
+        "result_label": "Limoges"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.260768,
+          45.833763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "TOURS",
+        "STATUT": "Préfecture de département",
+        "SUPERFICIE": 3336,
+        "POPULATION": 134633,
+        "latitude": 47.391759,
+        "longitude": 0.687758,
+        "result_label": "Tours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.687758,
+          47.391759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "AMIENS",
+        "STATUT": "Préfecture de région",
+        "SUPERFICIE": 5009,
+        "POPULATION": 133327,
+        "latitude": 49.891485,
+        "longitude": 2.296389,
+        "result_label": "Amiens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.296389,
+          49.891485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "METZ",
+        "STATUT": "Préfecture de région",
+        "SUPERFICIE": 4171,
+        "POPULATION": 119962,
+        "latitude": 49.119146,
+        "longitude": 6.176026,
+        "result_label": "Metz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.176026,
+          49.119146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "PERPIGNAN",
+        "STATUT": "Préfecture de département",
+        "SUPERFICIE": 6831,
+        "POPULATION": 118238,
+        "latitude": 42.697055,
+        "longitude": 2.893955,
+        "result_label": "Perpignan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.893955,
+          42.697055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "BOULOGNE-BILLANCOURT",
+        "STATUT": "Sous-préfecture",
+        "SUPERFICIE": 615,
+        "POPULATION": 116220,
+        "latitude": 48.834945,
+        "longitude": 2.241177,
+        "result_label": "Boulogne-Billancourt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.241177,
+          48.834945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "BESANCON",
+        "STATUT": "Préfecture de région",
+        "SUPERFICIE": 6510,
+        "POPULATION": 115879,
+        "latitude": 47.242188,
+        "longitude": 6.02007,
+        "result_label": "Besançon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.02007,
+          47.242188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "ORLEANS",
+        "STATUT": "Préfecture de région",
+        "SUPERFICIE": 2759,
+        "POPULATION": 114185,
+        "latitude": 47.901977,
+        "longitude": 1.903836,
+        "result_label": "Orléans"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.903836,
+          47.901977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "ROUEN",
+        "STATUT": "Préfecture de région",
+        "SUPERFICIE": 2142,
+        "POPULATION": 111553,
+        "latitude": 49.442832,
+        "longitude": 1.101763,
+        "result_label": "Rouen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.101763,
+          49.442832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "MULHOUSE",
+        "STATUT": "Sous-préfecture",
+        "SUPERFICIE": 2238,
+        "POPULATION": 110351,
+        "latitude": 47.748451,
+        "longitude": 7.338023,
+        "result_label": "Mulhouse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.338023,
+          47.748451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "CAEN",
+        "STATUT": "Préfecture de région",
+        "SUPERFICIE": 2573,
+        "POPULATION": 108793,
+        "latitude": 49.181339,
+        "longitude": -0.370637,
+        "result_label": "Caen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.370637,
+          49.181339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "SAINT-DENIS",
+        "STATUT": "Sous-préfecture",
+        "SUPERFICIE": 1238,
+        "POPULATION": 107762,
+        "latitude": 48.935427,
+        "longitude": 2.353006,
+        "result_label": "Saint-Denis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.353006,
+          48.935427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "NANCY",
+        "STATUT": "Préfecture de département",
+        "SUPERFICIE": 1494,
+        "POPULATION": 105382,
+        "latitude": 48.692365,
+        "longitude": 6.182711,
+        "result_label": "Nancy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.182711,
+          48.692365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "ARGENTEUIL",
+        "STATUT": "Sous-préfecture",
+        "SUPERFICIE": 1739,
+        "POPULATION": 104282,
+        "latitude": 48.947394,
+        "longitude": 2.246363,
+        "result_label": "Argenteuil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.246363,
+          48.947394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOM_COM": "MONTREUIL",
+        "STATUT": "Chef-lieu de canton",
+        "SUPERFICIE": 890,
+        "POPULATION": 103068,
+        "latitude": 48.859436,
+        "longitude": 2.442545,
+        "result_label": "Montreuil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.442545,
+          48.859436
+        ]
+      }
+    }
+  ]
 }
